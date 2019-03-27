@@ -1,6 +1,5 @@
 pipeline {
-    agent any
-    stages {
+      stages {
         stage('Build') {
             steps {
                 bat 'set'
