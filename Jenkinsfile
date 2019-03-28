@@ -4,6 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 bat 'mvn -v'
+                  input "Does the buil environment look ok?"
             }
         }
     }
