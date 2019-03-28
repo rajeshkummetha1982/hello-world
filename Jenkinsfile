@@ -7,4 +7,17 @@ pipeline {
             }
         }
     }
+      
+      
+      
+      post{
+
+      always{
+       echo 'Finished--------------------------'     
+      }
 }
+
+      
+      
+}
+
